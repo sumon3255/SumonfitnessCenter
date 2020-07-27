@@ -1,0 +1,179 @@
+/* Css Reset */
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url("img/gymf2.jpg");
+  height: 1000px;
+  color: white;
+  font-family: "Sofia";
+  font-size: 22px;
+}
+.left {
+  display: inline-block;
+  /* border: 2px solid red; */
+  position: absolute;
+  left: 26px;
+  top: 9px;
+}
+/* left and inside image target krbe */
+.left img {
+  padding: 4px 65px;
+  width: 117px;
+  filter: invert(100%);
+  margin: 3px auto;
+}
+/* left er inside div will in center */
+.left div {
+  text-align: center;
+  font-size: 35px;
+  line-height: 3px;
+}
+
+.mid {
+  /* border: 2px solid rgb(0, 255, 21); */
+  display: block;
+  width: 44%;
+  margin: 9px auto;
+}
+
+.right {
+  position: absolute;
+  right: 34px;
+  top: 18px;
+
+  display: inline-block;
+  /* border: 2px solid rgb(15, 16, 17); */
+}
+.btn {
+  margin: 0px 9px;
+  color: white;
+  background-color: black;
+  padding: 15px 33px;
+  border: 2px solid #b85695cc;
+  border-radius: 20px;
+  cursor: pointer; /* touch krle hand e asbe */
+  font-family: "Sofia";
+}
+.btn:hover {
+  color: red;
+}
+.navbar {
+  display: inline-block; /* ek line a thake */
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 20-px;
+}
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 6px 22px;
+}
+
+/* jodi a er 1 ta element active hoi then we use this logic */
+
+.navbar li a:hover,
+navbar li a.active {
+  color: red;
+}
+.container {
+  /* position is absoulate */
+  /* border: 2px solid rgb(216, 221, 216); */
+  margin: 74px 80px;
+  padding: 75px;
+  border-radius: 28px;
+  width: 33%;
+}
+.container h1 {
+  text-align: center;
+}
+/* inside input of form group */
+.form-group input {
+  text-align: center;
+  display: block;
+  width: 448px;
+  padding: 6px;
+  /* border: 4px solid black; */
+  margin: 13px auto;
+  border-radius: 18px;
+  font-size: 25px;
+  font-family: "Sofia";
+}
+.container button {
+  display: block;
+  width: 91%; /* persentage krte hole display block krte hbe  na hole px*/
+  margin: 42px auto;
+  font-size: 20px;
+}
+
+.inner a {
+  text-decoration: none;
+  color: #e91e63;
+}
+.Foot {
+  position: relative;
+  bottom: -19px;
+  right: -15px;
+  display: inline-block;
+  /* border: 2px solid green; */
+  padding: 34px;
+  margin: 29px 572px;
+}
+
+.container2 {
+  /* position is absoulate */
+  /* border: 2px solid rgb(216, 221, 216); */
+  margin: -35px 42px;
+  padding: 116px;
+  border-radius: 28px;
+  width: 81%;
+}
+.container2 h1 {
+  font-family: "Aclonica";
+  color: white;
+  text-align: left;
+  font-size: 33px;
+  padding: 2px 74px;
+}
+.container2 h2 {
+  font-family: "Aclonica";
+  color: white;
+  text-align: right;
+  font-size: 33px;
+}
+
+.container2 ul {
+  /* border: 3px solid green; */
+  font-size: 44px;
+  padding: 3px 127px;
+}
+.container2 li {
+  font-family: "Akronim";
+  color: #2196f3c7;
+  font-size: 29px;
+  /* border: 13px solid green; */
+  margin: 17px 18px;
+  padding: 10px 13px;
+}
+
+.form-group #message{
+  /* border: 2px solid green; */
+  border-radius: 13px;
+  margin: 5px 23px;
+  padding: 4px 4px;
+  font-family: "Sofia";
+  font-size: 28px;
+}
+.container img{
+  display: inline-block;
+  width: 36%;
+  margin: -60px 132px;
+}
+
+.container h3{
+  /* border:2px solid green; */
+  margin-left: 22px;
+  margin-right: -69px;
+}
+
